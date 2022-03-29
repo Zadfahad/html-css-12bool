@@ -1,16 +1,26 @@
-.container {
-  height: 300px;
-  background-color: burlywood;
+.mb-1 {
+  margin-bottom: 1rem;
 }
 
-.row {
-  height: 100px;
-  background-color: aquamarine;
+.container {
+  height: 300px;
+  background-color: lightgreen;
 }
 
 .box {
   width: 100%;
-  height: 100px;
-  border: 3px solid gray;
-  background-color: green;
+  min-height: 50px;
+  border: 2px solid white;
+  background-color: #006cfa;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  padding: 2px;
+}
+
+.box-1 {
+  background-color: #00e165;
+  text-align: center;
+  line-height: 50px;
+  margin: 8px 2px;
 }
